@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522930805395.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "998743432",
+    "id" : "2AA0380B",
+    "lastKnownWriteTime" : 1523370091,
+    "last_content_update" : 1523370091,
+    "path" : "~/MarketBasket_App/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "cursorPosition" : "74,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

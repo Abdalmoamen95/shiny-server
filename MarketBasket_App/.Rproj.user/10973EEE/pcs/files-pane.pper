@@ -1,0 +1,9 @@
+{
+    "path" : "~/MarketBasket_App",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

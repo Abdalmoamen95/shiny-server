@@ -1,0 +1,290 @@
+]0;/home/edararlogin/shiny_app]0;edararlogin@ip-172-31-18-184: ~/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/shiny_app[00m$ [K]0;edararlogin@ip-172-31-18-184: ~/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/shiny_app[00m$ ls
+app.R  shiny_app.Rproj
+]0;/home/edararlogin/shiny_app]0;edararlogin@ip-172-31-18-184: ~/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/shiny_app[00m$ cd ~
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ ls
+installodbc.sh  [0m[01;34mProjects[0m  [01;34mR[0m  [01;34mshiny_app[0m
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ cp =[K-r shiny_app /srv/shiny_server/shiny_app
+cp: cannot create directory '/srv/shiny_server/shiny_app': No such file or directory
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ cp -r shiny_app /srv/shiny_server/shiny_app[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for edararlogin: 
+cp: cannot create directory '/srv/shiny_server/shiny_app': No such file or directory
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ sudo cp -r shiny_app /srv/shiny_server/shiny_app[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kls
+installodbc.sh  [0m[01;34mProjects[0m  [01;34mR[0m  [01;34mshiny_app[0m
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ lssudo cp -r shiny_app /srv/shiny_server/shiny_app[K[K[K[K[K[K[K[K[K[K
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ cd /srv/shiny_d[Kserver
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ ls
+app.R  shiny_app.Rproj
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ sudo cp *.R /srv/shiny-server
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ ls
+app.R  shiny_app.Rproj
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ sudo rm /srv/shiny-server/*.R
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ 
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ ls
+app.R  shiny_app.Rproj
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ ccd [K[K[Kd ~
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ ls
+installodbc.sh  [0m[01;34mProjects[0m  [01;34mR[0m  [01;34mshiny_app[0m
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ sudio[K[Ko shi[K[K[Kcp -r shiny_app /srv/shiny_server/shiny_app
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ cd /srv/shiny_server
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ ls
+app.R  [0m[01;34mshiny_app[0m  shiny_app.Rproj
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ rm [K[K[Ksudo s[Krm *
+rm: cannot remove 'shiny_app': Is a directory
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ lls[K[K[Ks
+s: command not found
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ lsl
+No command 'lsl' found, did you mean:
+ Command 'ls' from package 'coreutils' (main)
+ Command 'lsw' from package 'suckless-tools' (universe)
+ Command 'sl' from package 'sl' (universe)
+ Command 'lsh' from package 'lsh-client' (universe)
+ Command 'lsx' from package 'suckless-tools' (universe)
+ Command 'wsl' from package 'wsl' (universe)
+ Command 'psl' from package 'psl' (universe)
+lsl: command not found
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ ls
+[0m[01;34mshiny_app[0m
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ shiny)[K_app
+shiny_app: command not found
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ cd /[Kshiny_app
+]0;/srv/shiny_server/shiny_app]0;edararlogin@ip-172-31-18-184: /srv/shiny_server/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server/shiny_app[00m$ ls
+app.R  shiny_app.Rproj
+]0;/srv/shiny_server/shiny_app]0;edararlogin@ip-172-31-18-184: /srv/shiny_server/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server/shiny_app[00m$ cd ..
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ ls
+[0m[01;34mshiny_app[0m
+]0;/srv/shiny_server]0;edararlogin@ip-172-31-18-184: /srv/shiny_server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny_server[00m$ cd ..
+]0;/srv]0;edararlogin@ip-172-31-18-184: /srv[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv[00m$ ls
+[0m[01;34mshiny_server[0m  [01;34mshiny-server[0m
+]0;/srv]0;edararlogin@ip-172-31-18-184: /srv[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv[00m$ cd shiny-server
+]0;/srv/shiny-server]0;edararlogin@ip-172-31-18-184: /srv/shiny-server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server[00m$ ls
+[0m[01;36mindex.html[0m  [01;36msample-apps[0m
+]0;/srv/shiny-server]0;edararlogin@ip-172-31-18-184: /srv/shiny-server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server[00m$ lscd shiny-serverls[K[Kcd ..
+]0;/srv]0;edararlogin@ip-172-31-18-184: /srv[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv[00m$ rn[Km shiny)[K_server
+rm: cannot remove 'shiny_server': Is a directory
+]0;/srv]0;edararlogin@ip-172-31-18-184: /srv[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv[00m$ sudo rm -rf /srv/shiny-server/[C[C[K[1Pserver_server[1P/shiny_server[1P/shiny_server[1P/shiny_server[1Pshiny_server[1Pshiny_server
+]0;/srv]0;edararlogin@ip-172-31-18-184: /srv[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv[00m$ ls
+[0m[01;34mshiny-server[0m
+]0;/srv]0;edararlogin@ip-172-31-18-184: /srv[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv[00m$ lssudo rm -rf shiny_server[9Prm[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcd ..[3Plscd shiny-serverls[Kcd ..[3Plscd ..[3Plscd shiny_app[3Pshiny_appls[Kl[2Psudo rm *ls[Kcd /srv/shiny_serversudo cp -r shiny_app /srv/shiny_server/shiny_app[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo cp -r shiny_app /srv/shiny_server/shiny_app[1Pserver/shiny_app-server/shiny_app
+cp: cannot stat 'shiny_app': No such file or directory
+]0;/srv]0;edararlogin@ip-172-31-18-184: /srv[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv[00m$ cd ~
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ cd ~sudo cp -r shiny_app /srv/shiny-server/shiny_app[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo rm -rf shiny_serverlsls[Ksudo cp -r shiny_app /srv/shiny-server/shiny_app[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~[K[Kls
+installodbc.sh  [0m[01;34mProjects[0m  [01;34mR[0m  [01;34mshiny_app[0m
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ lscd ~sudo cp -r shiny_app /srv/shiny-server/shiny_app
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ wget -p [K[K[K"[K[K[K[K[K[Kcd downd[Kload
+]0;/home/edararlogin/download]0;edararlogin@ip-172-31-18-184: ~/download[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/download[00m$ wget "https://cran.r-project.org/src/contrib/dbConnect_1.0.tar. gz"
+--2018-04-05 12:40:02--  https://cran.r-project.org/src/contrib/dbConnect_1.0.tar.gz
+Resolving cran.r-project.org (cran.r-project.org)... 137.208.57.37
+Connecting to cran.r-project.org (cran.r-project.org)|137.208.57.37|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8335 (8.1K) [application/x-gzip]
+Saving to: ‘dbConnect_1.0.tar.gz’
+
+dbConnect_1.0.tar.gz        0%[                                      ]       0  --.-KB/s               dbConnect_1.0.tar.gz      100%[=====================================>]   8.14K  --.-KB/s    in 0s      
+
+2018-04-05 12:40:08 (149 MB/s) - ‘dbConnect_1.0.tar.gz’ saved [8335/8335]
+
+]0;/home/edararlogin/download]0;edararlogin@ip-172-31-18-184: ~/download[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/download[00m$ systemctl status mssql-server
+[?1h=● mssql-server.service[m
+   Loaded: not-found (Reason: No such file or directory)[m
+   Active: inactive (dead)[m
+[K[?1l>]0;/home/edararlogin/download]0;edararlogin@ip-172-31-18-184: ~/download[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/download[00m$ ؤي ّ[K[K[Kcd ~
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ sudo apt-get install mssql-tools
+[sudo] password for edararlogin: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libpq5
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  msodbcsql17
+The following NEW packages will be installed:
+  msodbcsql17 mssql-tools
+0 upgraded, 2 newly installed, 0 to remove and 17 not upgraded.
+Need to get 0 B/5,069 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Do you want to continue? [Y/n] غ
+Abort.
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ sudo apt-get install mssql-tools
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libpq5
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  msodbcsql17
+The following NEW packages will be installed:
+  msodbcsql17 mssql-tools
+0 upgraded, 2 newly installed, 0 to remove and 17 not upgraded.
+Need to get 0 B/5,069 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Preconfiguring packages ...
+Selecting previously unselected package msodbcsql17.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 263618 files and directories currently installed.)
+Preparing to unpack .../msodbcsql17_17.1.0.1-1_amd64.deb ...
+Unpacking msodbcsql17 (17.1.0.1-1) ...
+Selecting previously unselected package mssql-tools.
+Preparing to unpack .../mssql-tools_17.1.0.1-1_amd64.deb ...
+Unpacking mssql-tools (17.1.0.1-1) ...
+Setting up msodbcsql17 (17.1.0.1-1) ...
+Setting up mssql-tools (17.1.0.1-1) ...
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ apt-get install unixodbc unixodbc-dev
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ سعيخ غ[K[K[K[K[K[Ksudo y
+sudo: y: command not found
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ sudo apt-get install unixodbc unixodbc-dev
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+unixodbc is already the newest version (2.3.1-4.1).
+The following packages were automatically installed and are no longer required:
+  libiodbc2 libpq5
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  libiodbc2-dev
+The following NEW packages will be installed:
+  unixodbc-dev
+0 upgraded, 1 newly installed, 1 to remove and 17 not upgraded.
+Need to get 0 B/217 kB of archives.
+After this operation, 1,461 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 263648 files and directories currently installed.)
+Removing libiodbc2-dev (3.52.9-2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Selecting previously unselected package unixodbc-dev.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 263626 files and directories currently installed.)
+Preparing to unpack .../unixodbc-dev_2.3.1-4.1_amd64.deb ...
+Unpacking unixodbc-dev (2.3.1-4.1) ...
+Setting up unixodbc-dev (2.3.1-4.1) ...
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ سه[Kعيخ [K[K[K[K[Ksudo apt-get install tdsodbc
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libiodbc2 libpq5
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  tdsodbc
+0 upgraded, 1 newly installed, 0 to remove and 17 not upgraded.
+Need to get 0 B/167 kB of archives.
+After this operation, 445 kB of additional disk space will be used.
+Preconfiguring packages ...
+Selecting previously unselected package tdsodbc:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 263646 files and directories currently installed.)
+Preparing to unpack .../tdsodbc_0.91-6.1build1_amd64.deb ...
+Unpacking tdsodbc:amd64 (0.91-6.1build1) ...
+Setting up tdsodbc:amd64 (0.91-6.1build1) ...
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ apt-get install libmyodbc
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ sudo apt-get install libmyodbc
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Package libmyodbc is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'libmyodbc' has no installation candidate
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ sudo apt-get install libmyodbc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K update
+0% [Working]            Hit:1 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial InRelease
+0% [Connecting to security.ubuntu.com (91.189.88.162)] [Connecting to dl.google.com] [Connecting to ppa                                                                                                       Get:2 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+0% [Waiting for headers] [Connecting to security.ubuntu.com (91.189.88.162)] [Connecting to dl.google.c                                                                                                       Get:3 http://us-east-2.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+0% [1 InRelease gpgv 247 kB] [3 InRelease 30.9 kB/102 kB 30%] [Connecting to security.ubuntu.com (91.180% [1 InRelease gpgv 247 kB] [Connecting to security.ubuntu.com (91.189.88.162)] [Connecting to dl.goog                                                                                                       Ign:4 http://dl.google.com/linux/chrome/deb stable InRelease
+0% [1 InRelease gpgv 247 kB] [Connecting to security.ubuntu.com (91.189.88.162)] [Connecting to archive0% [Connecting to security.ubuntu.com (91.189.88.162)] [Waiting for headers] [Waiting for headers] [Con0% [2 InRelease gpgv 102 kB] [Connecting to security.ubuntu.com (91.189.88.162)] [Waiting for headers]                                                                                                        Ign:5 http://archive.linux.duke.edu/cran/bin/linux/ubuntu trusty/ InRelease
+0% [2 InRelease gpgv 102 kB] [Connecting to security.ubuntu.com (91.189.88.162)] [Waiting for headers]                                                                                                        Hit:6 http://dl.google.com/linux/chrome/deb stable Release
+                                                                                                       0% [2 InRelease gpgv 102 kB] [Waiting for headers] [Waiting for headers] [Waiting for headers]                                                                                              Hit:7 http://archive.linux.duke.edu/cran/bin/linux/ubuntu trusty/ Release
+                                                                                              0% [2 InRelease gpgv 102 kB] [Waiting for headers] [Waiting for headers]                                                                        0% [Waiting for headers] [Waiting for headers]0% [3 InRelease gpgv 102 kB] [Waiting for headers] [Waiting for headers]                                                                        Get:8 http://ppa.launchpad.net/ondrej/php/ubuntu xenial InRelease [23.9 kB]
+0% [3 InRelease gpgv 102 kB] [Waiting for headers] [8 InRelease 14.2 kB/23.9 kB 59%]                                                                                    Get:9 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+0% [3 InRelease gpgv 102 kB] [9 InRelease 8,377 B/102 kB 8%] [8 InRelease 14.2 kB/23.9 kB 59%]                                                                                              0% [9 InRelease 14.2 kB/102 kB 14%] [8 InRelease 14.2 kB/23.9 kB 59%]0% [Release.gpg gpgv 1,189 B] [9 InRelease 14.2 kB/102 kB 14%] [8 InRelease 14.2 kB/23.9 kB 59%]                                                                                                0% [9 InRelease 14.2 kB/102 kB 14%] [8 InRelease 14.2 kB/23.9 kB 59%]0% [Release.gpg gpgv 3,066 B] [9 InRelease 14.2 kB/102 kB 14%] [8 InRelease 14.2 kB/23.9 kB 59%]                                                                                                0% [Release.gpg gpgv 3,066 B] [9 InRelease 14.2 kB/102 kB 14%]                                                              0% [9 InRelease 35.9 kB/102 kB 35%]0% [8 InRelease gpgv 23.9 kB] [9 InRelease 35.9 kB/102 kB 35%]                                                              0% [9 InRelease 72.1 kB/102 kB 71%]0% [Connecting to ppa.launchpad.net (91.189.95.83)]0% [9 InRelease gpgv 102 kB] [Connecting to ppa.launchpad.net (91.189.95.83)]                                                                             0% [Waiting for headers]                        Hit:12 https://packages.microsoft.com/ubuntu/16.04/prod xenial InRelease
+0% [Waiting for headers]0% [12 InRelease gpgv 2,845 B] [Waiting for headers]                                                    Hit:13 https://apt-mo.trafficmanager.net/repos/mssql-ubuntu-xenial-release xenial InRelease
+0% [12 InRelease gpgv 2,845 B] [Waiting for headers]                                                    0% [Waiting for headers]0% [13 InRelease gpgv 2,862 B] [Waiting for headers]                                                    Get:14 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 Packages [46.0 kB]
+0% [13 InRelease gpgv 2,862 B] [14 Packages 14.3 kB/46.0 kB 31%]                                                                93% [14 Packages 14.3 kB/46.0 kB 31%]                                     100% [Working]100% [14 Packages store 0 B]                            100% [Working]              Fetched 376 kB in 0s (441 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 6%Reading package lists... 6%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 49%Reading package lists... 49%Reading package lists... 63%Reading package lists... 71%Reading package lists... 71%Reading package lists... 72%Reading package lists... 72%Reading package lists... 72%Reading package lists... 72%Reading package lists... 77%Reading package lists... 77%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 85%Reading package lists... 85%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ rm [K[K[Ksudo /home/edararlogin/R/x86_64-pc-linux-gnu-library/3.4/00LOCK-odbc
+sudo: /home/edararlogin/R/x86_64-pc-linux-gnu-library/3.4/00LOCK-odbc: command not found
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ sudo rm /home/edararlogin/R/x86_64-pc-linux-gnu-library/3.4/00LOCK-odbc
+rm: cannot remove '/home/edararlogin/R/x86_64-pc-linux-gnu-library/3.4/00LOCK-odbc': Is a directory
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ rm [K[K[Ksudo rm -rf /home/edararlogin/R/x86_64-pc-linux-gnu-library/3.4/00LOCK-o dbc
+ls
+[0m[01;34mdownload[0m  installodbc.sh  [01;34mProjects[0m  [01;34mR[0m  [01;34mshiny_app[0m
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ cd /sre[Kv/shiny-server
+]0;/srv/shiny-server]0;edararlogin@ip-172-31-18-184: /srv/shiny-server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server[00m$ ls
+[0m[01;36mindex.html[0m  [01;36msample-apps[0m  [01;34mshiny_app[0m
+]0;/srv/shiny-server]0;edararlogin@ip-172-31-18-184: /srv/shiny-server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server[00m$ shiny_app
+shiny_app: command not found
+]0;/srv/shiny-server]0;edararlogin@ip-172-31-18-184: /srv/shiny-server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server[00m$ cd shiny_app
+]0;/srv/shiny-server/shiny_app]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/shiny_app[00m$ ls
+app.R  shiny_app.Rproj
+]0;/srv/shiny-server/shiny_app]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/shiny_app[00m$ appR[K[Kp.R
+app.R: command not found
+]0;/srv/shiny-server/shiny_app]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/shiny_app[00m$ cd ..
+]0;/srv/shiny-server]0;edararlogin@ip-172-31-18-184: /srv/shiny-server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server[00m$ cf[Kd ..
+]0;/srv]0;edararlogin@ip-172-31-18-184: /srv[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv[00m$ cd ..
+]0;/]0;edararlogin@ip-172-31-18-184: /[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/[00m$ cd ..
+]0;/]0;edararlogin@ip-172-31-18-184: /[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/[00m$ ls 
+[0m[01;34mbin[0m   [01;34metc[0m         [01;36minitrd.img.old[0m  [01;34mlost+found[0m  [01;34mopt[0m   [01;34mrun[0m   [01;34msrv[0m  [01;34musr[0m      [01;36mvmlinuz.old[0m
+[01;34mboot[0m  [01;34mhome[0m        [01;34mlib[0m             [01;34mmedia[0m       [01;34mproc[0m  [01;34msbin[0m  [01;34msys[0m  [01;34mvar[0m
+[01;34mdev[0m   [01;36minitrd.img[0m  [01;34mlib64[0m           [01;34mmnt[0m         [01;34mroot[0m  [01;34msnap[0m  [30;42mtmp[0m  [01;36mvmlinuz[0m
+]0;/]0;edararlogin@ip-172-31-18-184: /[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/[00m$ cd home
+]0;/home]0;edararlogin@ip-172-31-18-184: /home[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/home[00m$ ls
+[0m[01;34medararlogin[0m  [01;34mshiny[0m  [01;34mubuntu[0m
+]0;/home]0;edararlogin@ip-172-31-18-184: /home[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/home[00m$ eda[K[K[Kcd edararlp[Koh[Kgin
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ ls 
+[0m[01;34mdownload[0m  installodbc.sh  [01;34mProjects[0m  [01;34mR[0m  [01;34mshiny_app[0m
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ cd /sre[Kv/sjh[Kh[K[Khiny-server/shiny_app
+]0;/srv/shiny-server/shiny_app]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/shiny_app[00m$ ls
+app.R  shiny_app.Rproj
+]0;/srv/shiny-server/shiny_app]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/shiny_app[00m$ ms[Kv app.R [1@s[1@u[1@d[1@o[1@ [C[C[C[C[C[C[C[C[Capp2.R
+[sudo] password for edararlogin: 
+Sorry, try again.
+[sudo] password for edararlogin: 
+]0;/srv/shiny-server/shiny_app]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/shiny_app[00m$ ls
+app2.R  shiny_app.Rproj
+]0;/srv/shiny-server/shiny_app]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/shiny_app[00m$ ls
+app2.R  shiny_app.Rproj
+]0;/srv/shiny-server/shiny_app]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/shiny_app[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/shiny_app[00m$ cd ~
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ k[Kls
+[0m[01;34mdownload[0m  installodbc.sh  [01;34mProjects[0m  [01;34mR[0m  [01;34mshiny_app[0m
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ sudo vm shiny_app MarketBasketApp_App[C[C[C
+sudo: vm: command not found
+sudo M[KMarketBasket_App [1@c[1@p[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/srv/shiny-server/MarketBasket_a[KAPp[K[Kpp
+[sudo] password for edararlogin: 
+cp: omitting directory 'MarketBasket_App'
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ ^C
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ ^C
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ sudo cp MarketBasket_App /srv/shiny-server/MarketBasket_App[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksudo cp MarketBasket_App /srv/shiny-server/MarketBasket_App[C[1@ [1P[C[C[1@ [1@-[1@r
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ ls
+[0m[01;34mdownload[0m  installodbc.sh  [01;34mMarketBasket_App[0m  [01;34mProjects[0m  [01;34mR[0m  [01;34mshiny_app[0m
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ cp[K[Kcd /srv/shiny-app/[K[K[K[Kserver
+]0;/srv/shiny-server]0;edararlogin@ip-172-31-18-184: /srv/shiny-server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server[00m$ ls
+[0m[01;36mindex.html[0m  [01;34mMarketBasket_App[0m  [01;36msample-apps[0m  [01;34mshiny_app[0m
+]0;/srv/shiny-server]0;edararlogin@ip-172-31-18-184: /srv/shiny-server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server[00m$ ls[K[Kcd Marker=[K[KtBasket_a[KAPp
+bash: cd: MarketBasket_APp: No such file or directory
+]0;/srv/shiny-server]0;edararlogin@ip-172-31-18-184: /srv/shiny-server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server[00m$ .cd MarketBasket_APp[K[Kpp
+]0;/srv/shiny-server/MarketBasket_App]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/MarketBasket_App[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/MarketBasket_App[00m$ ls
+app.R  shiny_app.Rproj
+ks
+ks: command not found
+]0;/srv/shiny-server/MarketBasket_App]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/MarketBasket_App[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/MarketBasket_App[00m$ ls
+app.R  shiny_app.Rproj
+]0;/srv/shiny-server/MarketBasket_App]0;edararlogin@ip-172-31-18-184: /srv/shiny-server/MarketBasket_App[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server/MarketBasket_App[00m$ cd ..
+]0;/srv/shiny-server]0;edararlogin@ip-172-31-18-184: /srv/shiny-server[01;32medararlogin@ip-172-31-18-184[00m:[01;34m/srv/shiny-server[00m$ cd ~
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ ls
+[0m[01;34mdownload[0m  installodbc.sh  [01;34mMarketBasket_App[0m  [01;34mProjects[0m  [01;34mR[0m  [01;34mshiny_app[0m
+]0;/home/edararlogin]0;edararlogin@ip-172-31-18-184: ~[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~[00m$ cd pro[K[K[KProjects
+]0;/home/edararlogin/Projects]0;edararlogin@ip-172-31-18-184: ~/Projects[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/Projects[00m$ ls
+market_basket1.csv  Market Basket Analysis.Rmd  retail.xlsx  [0m[01;34mshinytest[0m
+]0;/home/edararlogin/Projects]0;edararlogin@ip-172-31-18-184: ~/Projects[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/Projects[00m$ .sudi[Ko rm -r shinytest
+No command '.sudo' found, did you mean:
+ Command 'sudo' from package 'sudo-ldap' (universe)
+ Command 'sudo' from package 'sudo' (main)
+.sudo: command not found
+]0;/home/edararlogin/Projects]0;edararlogin@ip-172-31-18-184: ~/Projects[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/Projects[00m$ s[K.sudo rm -r shinytest[C[1P
+[sudo] password for edararlogin: 
+]0;/home/edararlogin/Projects]0;edararlogin@ip-172-31-18-184: ~/Projects[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/Projects[00m$ ls
+market_basket1.csv  Market Basket Analysis.Rmd  retail.xlsx
+]0;/home/edararlogin/Projects]0;edararlogin@ip-172-31-18-184: ~/Projects[01;32medararlogin@ip-172-31-18-184[00m:[01;34m~/Projects[00m$ 
